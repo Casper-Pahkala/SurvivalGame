@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4935651712599314530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4527643264461801363}
+  - component: {fileID: -7178662805981037082}
+  m_Layer: 0
+  m_Name: Builder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4527643264461801363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4935651712599314530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7178662805981037082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4935651712599314530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304d4978483d90d4b9fcf81e93aa0388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorPrefab: {fileID: 4313166475796598080, guid: acff00f9a31845b41a63d29ad5782d76, type: 3}
+  wallPrefab: {fileID: 1979263461749790272, guid: 3247dcb4c519bfe4dac8c88d4be6fec3, type: 3}
+  roofPrefab: {fileID: 4313166475796598080, guid: a373b778e68f6bb48ba2cf050fa7b7b9, type: 3}
+  doorWayPrefab: {fileID: 9048222194171073172, guid: 60d758bdf66d6944fb013f277c42a1c3, type: 3}
+  floorObject: {fileID: 0}
+  wallObject: {fileID: 0}
+  roofObject: {fileID: 0}
+  doorWayObject: {fileID: 0}
+  IgnoreMe:
+    serializedVersion: 2
+    m_Bits: 0
+  wallMask:
+    serializedVersion: 2
+    m_Bits: 128
+  roofMask:
+    serializedVersion: 2
+    m_Bits: 512
+  floorMask:
+    serializedVersion: 2
+    m_Bits: 64
+  xOffset: 4
+  yOffset: 2
+  zOffset: 4
+  maxDistance: 5
+  woodMat: {fileID: 2100000, guid: a29dc5e705e2f4a429ca2000cb221c43, type: 2}
+  woodWallMat: {fileID: 2100000, guid: a384b583426023d4da68d3f25e868451, type: 2}
+  canPlace: 0
+  resourceNotification: {fileID: 2481942365753763745, guid: cff6300cf09163f4581489b852efd2c6, type: 3}
+  woodMatError: {fileID: 2100000, guid: 9e02020022be8a14691927dee7a4a05b, type: 2}
+  woodMatCanPlace: {fileID: 2100000, guid: 561b23bbaad6e2e499b1d9030ddda523, type: 2}
+  woodWallMatError: {fileID: 2100000, guid: 9e02020022be8a14691927dee7a4a05b, type: 2}
+  woodWallMatCanPlace: {fileID: 2100000, guid: 561b23bbaad6e2e499b1d9030ddda523, type: 2}
+  xFloor: 0
+  yFloor: 0
+  zFloor: 0
+  xWall: 0
+  yWall: 0
+  zWall: 0
+  xRoof: 0
+  yRoof: 0
+  zRoof: 0
+  xObject: 0
+  yObject: 0
+  zObject: 0
+  aa: 3
+  aaa: 2.5
+  currentBuilding: floor

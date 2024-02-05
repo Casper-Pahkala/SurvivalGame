@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "99835161663",
+    "firebase_url": "https://open-world-2d174-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "open-world-2d174",
+    "storage_bucket": "open-world-2d174.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99835161663:android:e52d969d0f7b1ad2679c8a",
+        "android_client_info": {
+          "package_name": "com.badfish.openworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99835161663-5em6j60t26gjorft5q6hb40tru0jcriv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ucyv7byacUluq1tIX_pd7VXEDrJ2HBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99835161663-5em6j60t26gjorft5q6hb40tru0jcriv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
